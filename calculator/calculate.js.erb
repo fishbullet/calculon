@@ -1,4 +1,4 @@
-<% if @answer == 'something went wrong!' %>
+<% if @answer == @bad %>
   alert("<%= @answer %>");
 <% else %>
   $('#answer').val("<%= @answer %>");

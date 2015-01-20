@@ -50,8 +50,9 @@ class CalculatorController < ApplicationController
   def calculate
     dirty_string = params[:input_value]
     answer = ParseString.this dirty_string
+    @bad = 'something went wrong!'
     @answer = if answer	== 'bad operator'
-		'something went wrong!'
+		@bad
 	      else
 		answer
 	      end
