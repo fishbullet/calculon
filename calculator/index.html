@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Calculator</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="../script.js"></script>
+</head>
+
+<body>
+  <%= text_field_tag 'answer' %>
+    <% [1, 2, 3, '+', 4, 5, 6, '-', 7, 8, 9, '*', 0].each do |b| %>
+      <input type="button" value=<%= b %> id=<%= b %> >
+    <% end %>
+    <%= button_tag 'calculate', id: 'calculate' %>
+</body>
+
