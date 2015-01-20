@@ -1,2 +1,6 @@
-$('#answer').val("<%= @answer %>");
+<% if @answer == 'something went wrong!' %>
+  alert("<%= @answer %>");
+<% else %>
+  $('#answer').val("<%= @answer %>");
+<% end %>
 
