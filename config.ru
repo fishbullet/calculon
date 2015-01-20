@@ -1,8 +1,3 @@
-# Made for lulz only!!!
-# to run app:
-#
-# RAILS_ENV=production rackup -p 3000
-#
 require "rubygems"
 
 require 'rails'
