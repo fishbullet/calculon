@@ -12,4 +12,9 @@ $( document ).ready(function() {
     $("#answer").val('');
     $.post('/calculate', { input_value: data });
   });
+
+  // Clear input
+  $('#clean').click( function() {
+    $("#answer").val('');
+  });
 });
