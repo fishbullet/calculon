@@ -1,5 +1,7 @@
 require "rubygems"
 
+require 'bundler/setup'
+
 require 'rails'
 require 'active_support/railtie'
 require 'action_dispatch/railtie'
