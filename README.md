@@ -10,6 +10,6 @@ cd calculon && bundle install
 Run:
 
 ```
-RAILS_ENV=production rackup -p 3000
+RAILS_ENV=production bundle exec rackup -p 3000
 ```
 
