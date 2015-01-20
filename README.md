@@ -1,5 +1,3 @@
-Made for lulz only)
-
 Install:
 
 ```
