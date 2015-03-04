@@ -28,6 +28,8 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    awesomplete (0.0.5)
+      rails (~> 4.0)
     builder (3.2.2)
     erubis (2.7.0)
     hike (1.2.3)
@@ -76,4 +78,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesomplete
   rails (= 4.1.7)
