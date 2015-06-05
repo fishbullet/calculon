@@ -1,0 +1,4 @@
+#!/bin/bash
+
+RAILS_ENV=production bundle exec rackup -p 3000
+
